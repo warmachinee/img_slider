@@ -1,0 +1,50 @@
+.mainTopBar{
+
+    border-style:solid;
+    border-color: rgb(133, 133, 133);
+    border-width: 2px;
+
+    height: 3em;
+}
+
+.logo{
+    position: relative;
+    width: 2em;
+
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    
+}
+
+.domainName{
+    position: relative;
+    top:-2.7em;
+    left:3em;
+
+    color:rgb(133, 133, 133);
+    font-weight: 700;
+}
+
+.button{
+    background-color: white;
+    border-radius: 0.3em;
+    padding:0.5em 2.5em;
+    color:rgb(133,133,133);
+
+    border-style: solid;
+    border-color: rgb(160, 160, 160);
+    margin-left: 1em;
+}
+
+.button:hover{
+    color:white;
+    background-color:rgb(133, 133, 133);
+
+    cursor: pointer;
+}
+
+.topbarButton{
+    position: relative;
+    top:-6.5em;
+    left: 75em;
+}

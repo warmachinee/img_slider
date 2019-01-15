@@ -1,0 +1,60 @@
+.mainBottom{
+    height: 14em;
+
+    border-style: solid;
+    border-color: rgb(133, 133, 133);
+    border-width: 0.1em;
+
+    position: relative;
+    top:1em;
+}
+
+.BottomLeft{
+
+    padding:1.5em;
+}
+
+.BottomTopic{
+    width: 16vw;
+    height: 9em;
+}
+
+.BottomSubTopic{
+    width: 16vw;
+}
+
+.tdBottom{
+    padding-left: 1em;
+}
+
+.thBottom{
+    padding-left: 15em;
+}
+
+a{
+    text-decoration: unset;
+
+    color:rgb(133, 133, 133);
+}
+
+a:hover{
+    text-decoration: underline;
+
+    cursor: pointer;
+
+}
+
+.BottomIcon{
+    width:1em;
+}
+
+.copyright{
+    position: relative;
+    margin-left: 5em;
+    font-size: 0.8em;
+    top:5em;
+}
+
+.grey{
+    color:rgb(133, 133, 133);
+}

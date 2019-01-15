@@ -1,0 +1,61 @@
+.mainBanner{
+
+    border-style: solid;
+    border-color: rgb(133, 133, 133);
+    border-width: 0.1em;
+
+    position: relative;
+
+    margin:2em 5em;
+}
+
+.tdBack{
+    width:10em;
+
+}
+
+.backFromBanner{
+    width:2em;
+    margin:1em 0em 1em 1em;
+}
+
+.backFromBanner:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.pictureBanner{
+    height: 20em;
+    width: 50em;
+
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: rgb(133, 133, 133);
+
+    margin:1em 10em;
+}
+
+.pictureCaption{
+    text-align: center;
+    margin-top: 9em;
+
+    font-weight: 700;
+
+    color:rgb(133, 133, 133);
+}
+
+.BannerTopic{
+    position: relative;
+    text-align: unset;
+    
+    font-size: 1.5em;
+
+    color:rgb(133, 133, 133);
+}
+
+.Content{
+    height: 30em;
+    
+    margin-left: 10em;
+
+}

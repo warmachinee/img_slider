@@ -36,6 +36,10 @@ class App extends Component {
     })
   }
 
+  showDetail=()=>{
+    window.location.href="/banner";
+  }
+
   render() {
     const {properties, property} = this.state;
     return (
@@ -60,7 +64,7 @@ class App extends Component {
                 properties.map(property =>
                   <Card
                     key={property.index} property={property}
-                    onClick={this.showModal}
+                    onClick={this.showDetail}
                     />)
               }
             </div>
